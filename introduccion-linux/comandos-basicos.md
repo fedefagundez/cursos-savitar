@@ -20,7 +20,7 @@ cat /etc/group
 
 Ver contenido en formato paginado: `less`.
 
-**Los comandos de control son:**
+## Los comandos de control son
 
 - `Espacio` - página siguiente.
 - `b` - página anterior.
@@ -107,3 +107,22 @@ federico:x:1000:1000:Federico Pérez:/home/federico:/bin/bash
 - **GECOS:** `Federico Pérez`
 - **Directorio personal:** `/home/federico`
 - **Shell:** `/bin/bash`
+
+## Pipe (`|`) en Linux
+
+El **pipe** (`|`) envía la **salida de un comando** como **entrada de otro**.
+
+### Sintaxis
+
+```bash
+comando1 | comando2
+```
+
+### Ejemplo
+
+```bash
+cat /etc/group | grep "sudo"
+```
+
+- `cat` muestra el contenido del archivo.
+- `grep` recibe esa salida y muestra solo las líneas que contienen `sudo`.
