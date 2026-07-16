@@ -59,7 +59,7 @@ cat /etc/group | grep "floppy"
 cat /etc/group | grep -n "floppy"
 ```
 
-`ls` - listar todos las carpetas y archivos del directorio
+`ls` - listar todos las carpetas y archivos del directorio 
 `ls -l` - listar todos las carpetas y archivos del directorio con detalles  
 `pwd` - mostrar el directorio actual  
 `cd ..` -  cambiar al directorio padre  
